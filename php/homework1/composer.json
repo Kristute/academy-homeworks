@@ -1,0 +1,22 @@
+{
+    "name": "homework/homework",
+    "description": "Simple homework task to learn autoloader and namespaces",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kristina Rudzinskaite",
+            "email": "rudzinskaitekristina@gmail.com"
+        }
+    ],
+    "require": {
+        "codedungeon/php-cli-colors": "^1.10"
+    },
+    "autoload": {
+        "files": [
+            "root.php",
+            "notTyped.php",
+            "soft.php",
+            "strict.php"
+        ]
+    }
+}
