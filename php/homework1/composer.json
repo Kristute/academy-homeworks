@@ -14,9 +14,9 @@
     "autoload": {
         "files": [
             "root.php",
-            "notTyped.php",
-            "soft.php",
-            "strict.php"
+            "Nfq/Akademija/notTyped.php",
+            "Nfq/Akademija/soft.php",
+            "Nfq/Akademija/strict.php"
         ]
     }
 }
