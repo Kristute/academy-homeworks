@@ -1,0 +1,40 @@
+:root {
+    --base-font-size: 16px;
+    --u-container-sm-width: 98%;
+    --u-container-md-width: 70%;
+    --u-container-lg-width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .u-container {
+        width: var(--u-container-sm-width);
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .u-container {
+        width: var(--u-container-md-width);
+    }
+}
+
+@media (min-width: 961px) {
+    .u-container {
+        width: var(--u-container-lg-width);
+    }
+}
+
+
+html {
+    font-size: var(--base-font-size);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}

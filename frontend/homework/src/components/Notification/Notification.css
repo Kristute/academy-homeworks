@@ -1,0 +1,26 @@
+:root {
+    --Notification-boxShadow: 0px 0px 5px 1px rgba(0, 0, 255, .2);
+    --Notification-backgroundColor: #fff;
+    /* States */
+    --Notification--onError-color: #f24011;
+    --Notification--onSuccess-color: #14872c;
+}  
+
+.Notification {
+    background-color: var(--Notification-backgroundColor);
+    border: 1px solid grey;
+    box-shadow: var(--Notification-boxShadow);
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 3px;
+    border-right-width: 40px;
+}
+
+.Notification.is-success {
+    border-color: var(--Notification--onSuccess-color);
+}
+
+.Notification.is-error {
+    border-color: var(--Notification--onError-color);
+}
